@@ -1,1 +1,4 @@
+*.pyc 
 *.kv
+.vscode
+venv

@@ -34,7 +34,6 @@ def fips2vec(dimensions=64, force_train=False, vizualize=False, workers=6, file_
         names_df.to_csv('names.csv', index=False) 
         edges_df = pd.DataFrame(edges, columns=['src', 'tgt'])
         edges_df.to_csv('fips_adjacency.csv', index=False) #save the graph as a csv
-        return
         g = nx.Graph()
         g.add_edges_from(edges_df.to_numpy())
 

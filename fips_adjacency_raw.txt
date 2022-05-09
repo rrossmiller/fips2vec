@@ -9626,7 +9626,7 @@
 		"Pierce County, WI"	55093
 		"Polk County, WI"	55095
 		"St. Croix County, WI"	55109
-	27165	"Blue Earth County, MN"	27013
+		"Blue Earth County, MN"	27013
 		"Brown County, MN"	27015
 		"Cottonwood County, MN"	27033
 		"Jackson County, MN"	27063

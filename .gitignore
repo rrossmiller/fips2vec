@@ -2,3 +2,4 @@
 *.kv
 .vscode
 venv
+*.tsv

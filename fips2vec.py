@@ -86,5 +86,15 @@ def write_tsv(file_path='.'):
         fout.writelines(labels)
 		
 if __name__ == '__main__':
-  fips2vec(dimensions=200, force_train=True)
-  write_tsv()
+    import argparse
+    import os
+    os.system("clear")
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dims", default=8)
+    parser.add_argument("--force_train", default=False)
+    dims = parser.parse_args().dims
+    force_train = parser.parse_args().force_train
+
+    fips2vec(dimensions=dims, force_train=force_train)
+    write_tsv()
